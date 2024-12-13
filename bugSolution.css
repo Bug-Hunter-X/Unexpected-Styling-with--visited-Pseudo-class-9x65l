@@ -1,0 +1,15 @@
+/* Corrected CSS */
+
+a { /* Apply styling only to anchor tags (links) */
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple; /* Style visited links differently */
+}
+
+/*Avoid applying :visited to non-link elements*/
+div {
+  /*Do not apply :visited style here*/
+  color: black; 
+}
